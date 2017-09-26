@@ -1,2 +1,0 @@
-# simpleSignInForSchool
-For school credits
