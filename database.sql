@@ -1,0 +1,13 @@
+CREATE DATABASE `simpleSignInExample` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+USE `simpleSignInExample`;
+
+
+CREATE TABLE IF NOT EXISTS `users`(
+`user_id` INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`username` VARCHAR(255) NOT NULL,
+`userpass` VARCHAR(255) NOT NULL,
+`userdate` INTEGER NOT NULL
+) 
+ENGINE=InnoDB 
+DEFAULT CHARSET=utf8;
